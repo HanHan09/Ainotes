@@ -82,6 +82,7 @@
 具体获取的权限如下：
 
 * **1）权限名称：手机设备信息（android.permission.READ_PHONE_STATE ）**
+
 **权限使用说明一：** 我们的产品集成友盟+SDK、谷歌的firebase SDK，友盟+SDK、谷歌的firebase SDK需要收集您的设备Mac地址、唯一设备识别码（IMEI/android ID/IDFA/OPENUDID/GUID、SIM 卡 IMSI 信息）以提供统计分析服务，并通过安装列表以及地理位置校准报表数据准确性，提供基础反作弊能力。
 
 **权限使用说明二：** 我们的产品集成了adview SDK，adview SDK需要收集您的设备Mac地址、安装软件权限、唯一设备识别码（IMEI/android ID/IDFA/OPENUDID/GUID、SIM 卡 IMSI 信息）用于广告服务          
