@@ -73,7 +73,7 @@
 * **6) 名称：腾讯广点通SDK**            
 **目的：** 广告服务                 
 **方式：** 基于用户授权获取             
-**范围：** SDK/API/JS代码版本、浏览器、终端设备操作系统版本、互联网服务供应商、IP地址、应用分发渠道、独立设备标识符、iOS广告标识符（IDFA)、安卓广告主标识符、网卡（MAC）地址、国际移动设备识别码（IMEI）、设备型号、浏览的页面、访问的时间和长度、下载、点击、软件安装列表            
+**范围：** SDK/API/JS代码版本、浏览器、终端设备操作系统版本、互联网服务供应商、IP地址、应用分发渠道、独立设备标识符、iOS广告标识符（IDFA)、安卓广告主标识符、网卡（MAC）地址、国际移动设备识别码（IMEI）、设备型号、浏览的页面、访问的时间和长度、下载、点击、软件安装列表、陀螺仪传感器/加速度传感器           
 **隐私权政策链接地址：** [腾讯广点通隐私政策](https://www.tencent.com/zh-cn/privacy-policy.html)                    
                  
                        
@@ -84,9 +84,13 @@
 * **1）权限名称：手机设备信息（android.permission.READ_PHONE_STATE ）**             
 **权限使用说明一：** 我们的产品集成友盟+SDK、谷歌的firebase SDK，友盟+SDK、谷歌的firebase SDK需要收集您的设备Mac地址、唯一设备识别码（IMEI/android ID/IDFA/OPENUDID/GUID、SIM 卡 IMSI 信息）以提供统计分析服务，并通过安装列表以及地理位置校准报表数据准确性，提供基础反作弊能力。 
           
- **权限使用说明二：** 我们的产品集成了adview SDK，adview SDK需要收集您的设备Mac地址、安装软件权限、唯一设备识别码（IMEI/android ID/IDFA/OPENUDID/GUID、SIM 卡 IMSI 信息）用于广告服务       
+ **权限使用说明二：** 我们的产品集成了adview SDK，adview SDK需要收集您的设备Mac地址、安装软件权限、唯一设备识别码（IMEI/android ID/IDFA/OPENUDID/GUID、SIM 卡 IMSI 信息）用于广告服务 
+
+  **权限使用说明三：** 我们的产品集成了adview SDK，adview SDK调用广点通、优量汇、腾讯广告的SDK，用于展示开屏广告，通过开屏广告的摇一摇功能获取用户陀螺仪传感器/加速度传感器个人信息，使用户进入广告的着落页
+  
+  需要收集您的设备Mac地址、安装软件权限、唯一设备识别码（IMEI/android ID/IDFA/OPENUDID/GUID、SIM 卡 IMSI 信息）用于广告服务
  
-**权限使用说明三：** 我们的产品集成友盟+SDK，友盟+SDK采集设备标识符(IMEI/Mac/android ID/IDFA/OPENUDID/GUID、SIM 卡 IMSI 信息)以及社交账号公开信息，以便向目标设备以及指定社交账号分享消息。采集地理位置甄别分享通道，提供反作弊服务          
+**权限使用说明四：** 我们的产品集成友盟+SDK，友盟+SDK采集设备标识符(IMEI/Mac/android ID/IDFA/OPENUDID/GUID、SIM 卡 IMSI 信息)以及社交账号公开信息，以便向目标设备以及指定社交账号分享消息。采集地理位置甄别分享通道，提供反作弊服务          
 **权限授权方式：** 用户首次打开爱便签App时弹窗询问       
 **是否可关闭：** 是           
             
